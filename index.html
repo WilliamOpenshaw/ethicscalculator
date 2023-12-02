@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1920 height=1080 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=720 height=405 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/1.1.0 Ethics Calculator WebGL runtime lto.loader.js";
+      var loaderUrl = buildUrl + "/1.1.0 Ethics Calculator WebGL runtime lto 2 720 405.loader.js";
       var config = {
-        dataUrl: buildUrl + "/1.1.0 Ethics Calculator WebGL runtime lto.data",
-        frameworkUrl: buildUrl + "/1.1.0 Ethics Calculator WebGL runtime lto.framework.js",
-        codeUrl: buildUrl + "/1.1.0 Ethics Calculator WebGL runtime lto.wasm",
+        dataUrl: buildUrl + "/1.1.0 Ethics Calculator WebGL runtime lto 2 720 405.data",
+        frameworkUrl: buildUrl + "/1.1.0 Ethics Calculator WebGL runtime lto 2 720 405.framework.js",
+        codeUrl: buildUrl + "/1.1.0 Ethics Calculator WebGL runtime lto 2 720 405.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "WilliamOpenshaw OphaTapioka",
         productName: "Ethics Calculator",
@@ -94,11 +94,11 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "1920px";
-        canvas.style.height = "1080px";
+        canvas.style.width = "720px";
+        canvas.style.height = "405px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/1.1.0 Ethics Calculator WebGL runtime lto.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/1.1.0 Ethics Calculator WebGL runtime lto 2 720 405.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
